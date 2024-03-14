@@ -5,5 +5,5 @@ if __name__ == '__main__':
     length = len(sys.argv)
     print("{} {}:".format(length, "arguments" if length > 1 else "argument"))
     for i in sys.argv:
-        print("{}: {}".format(j, i))
+        print("{:d}: {:d}".format(j, i))
         j += 1
