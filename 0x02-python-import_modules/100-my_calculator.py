@@ -2,9 +2,9 @@
 if __name__ == '__main__':
     import calculator_1
     import sys
-    args = sys.argv[:]
+    args = len(sys.argv)
 
-    if len(args) < 4:
+    if args < 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>".format())
         exit(1)
 
