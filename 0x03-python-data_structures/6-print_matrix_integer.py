@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 def print_matrix_integer(matrix=[[]]):
-    for i in matrix:
-        k = 0
-        for j in i:
-            k += 1
-            print("{:d}{}".format(j, "" if k == 3 else " "), end="")
+    for row in matrix:
+        for index, num in enumerate(row):
+            if index == len(row) - 1:
+                print("{:d}".format(num), end="")
+            else:
+                print("{:d} ".format(num), end="")
         print()
