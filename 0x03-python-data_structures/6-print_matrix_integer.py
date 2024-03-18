@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/u6-print_matrix_integer.pysr/bin/python3
 def print_matrix_integer(matrix=[[]]):
     for row in matrix:
         for index, num in enumerate(row):
